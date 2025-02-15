@@ -38,6 +38,7 @@ const App: React.FC = () => {
       {selectedPlaylist && (
         <Box mt={2} width="100%" maxWidth={400}>
           <iframe
+            title="Spotify Playlist"
             style={{ borderRadius: "12px", width: "100%" }}
             src={selectedPlaylist}
             height="352"
