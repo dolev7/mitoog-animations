@@ -39,6 +39,10 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  background-color: black !important; /* ✅ Change this color if needed */
+  /* width: 100vw !important;
+  height: 100vh !important;
+  z-index: -1 !important; */
 }
 
 @keyframes App-logo-spin {
